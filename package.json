@@ -20,6 +20,9 @@
         "vue": "^3.2.41"
     },
     "dependencies": {
-        "laravel-mix": "^6.0.49"
+        "@syncfusion/ej2-base": "^20.3.56",
+        "@syncfusion/ej2-vue-navigations": "^20.3.60",
+        "laravel-mix": "^6.0.49",
+        "vue-sidebar-menu-akahon": "^0.1.4"
     }
 }

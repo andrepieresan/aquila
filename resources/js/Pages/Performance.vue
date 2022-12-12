@@ -3,9 +3,9 @@ import { Head } from "@inertiajs/inertia-vue3";
 </script>
 
 <template>
-  <Head title="Dashboard" />
+  <Head title="Estratégia" />
   <App>
-    <div class="text">Dashboard</div>
+    <div class="text">Performance</div>
   </App>
 </template>
 <script>
