@@ -16,9 +16,9 @@ use Inertia\Inertia;
 |
 */
 
-Route::middleware(['authh'])->group(function(){
+Route::middleware(['authh'])->group(function () {
     Route::get('dashboard', function () {
-        return Inertia::render('Dashboard',[
+        return Inertia::render('Dashboard', [
             "name" => "andre"
         ]);
     })->name('dashboard');
@@ -35,5 +35,8 @@ Route::middleware(['authh'])->group(function(){
         return Inertia::render('Settings');
     })->name('settings');
 })->prefix('/');
-    
+
+Route::get('login', function () {
+    return Inertia::render('Login');
+})->name('login');
 // require __DIR__.'/auth.php';

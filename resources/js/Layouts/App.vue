@@ -21,6 +21,7 @@ export default {
   position: relative;
   background: #e4e9f7;
   min-height: 100vh;
+  min-width: 120vh;
   top: 0;
   left: 78px;
   width: calc(100% - 78px);
