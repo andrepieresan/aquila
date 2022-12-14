@@ -21,7 +21,7 @@
             <input type="password" placeholder="Senha" required />
           </div>
           <div class="pass-link">
-            <a href="#">Esqueceu a senha?</a>
+            <Link :href="route('recovery')">Esqueceu a senha?</Link>
           </div>
           <div class="field btn">
             <div class="btn-layer"></div>
@@ -202,7 +202,7 @@ input[type="radio"] {
   transition: all 0.3s ease;
 }
 .form-inner form .field input:focus {
-  border-color: #2b0e1b;
+  border-color: #2c2858;
   /* box-shadow: inset 0 0 3px #fb6aae; */
 }
 .form-inner form .field input::placeholder {

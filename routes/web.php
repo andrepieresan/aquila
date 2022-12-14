@@ -16,6 +16,10 @@ use Inertia\Inertia;
 |
 */
 
+Route::get('recovery', function () {
+    return Inertia::render('Recovery');
+})->name('recovery');
+
 Route::middleware(['authh'])->group(function () {
     Route::get('dashboard', function () {
         return Inertia::render('Dashboard', [
